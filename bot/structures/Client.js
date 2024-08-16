@@ -37,7 +37,6 @@ class Bot extends Client {
       plugins: [new SpotifyPlugin(), new SoundCloudPlugin()],
       emitNewSongOnly: true,
     });
-    this.manager = require("./Manager.js");
     this.config = require("../../config/config.js");
     this.emoji = require("../../config/emoji.json");
     this.slashCommands = new Collection();

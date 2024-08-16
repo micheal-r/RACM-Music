@@ -5,7 +5,6 @@ const {
   ActionRowBuilder,
   MessageFlags,
 } = require("discord.js");
-const e = require("express");
 
 const interactionRegistry = new Map();
 

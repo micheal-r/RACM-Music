@@ -16,4 +16,6 @@ module.exports = {
     aliases: ["bugsy", "bgy"],
   },
   whitelist: [],
+  discordToken: process.env.DISCORD_TOKEN,
+  discordId: "1274000938360897587",
 };
