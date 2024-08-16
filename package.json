@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@distube/soundcloud": "^2.0.3",
+    "@distube/spotify": "^2.0.2",
+    "discord.js": "^14.15.3",
+    "distube": "^5.0.2",
+    "dotenv": "^16.4.5"
+  },
+  "name": "racm-music",
+  "version": "0.0.1",
+  "description": "R&CM music bot",
+  "main": "bot/bot.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon",
+    "start": "node bot/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micheal-r/RACM-Music.git"
+  },
+  "keywords": [
+    "Music"
+  ],
+  "author": "micheal-r",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/micheal-r/RACM-Music/issues"
+  },
+  "homepage": "https://github.com/micheal-r/RACM-Music#readme"
+}
