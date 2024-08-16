@@ -6,11 +6,11 @@ module.exports = async (client) => {
     client.user.setStatus("online");
     let status = [
       {
-        name: "/help",
+        name: "to music",
         type: ActivityType.Listening,
       },
       {
-        name: "over RACM",
+        name: "over voice chats",
         type: ActivityType.Watching,
       },
     ];

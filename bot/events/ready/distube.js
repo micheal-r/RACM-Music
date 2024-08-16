@@ -14,7 +14,7 @@ module.exports = async (client) => {
           new EmbedBuilder()
             .setColor("#a20000")
             .setDescription(
-              `<a:music:1273597008518840362> | Playing: \`${song.name}\` - \`${
+              `<a:music:1274067677983408199> | Playing: \`${song.name}\` - \`${
                 song.formattedDuration
               }\`\nFrom: ${song.user}\n${status(queue)}`
             ),
@@ -27,7 +27,7 @@ module.exports = async (client) => {
           new EmbedBuilder()
             .setColor("#a20000")
             .setDescription(
-              `<a:music:1273597008518840362> | Added \`${song.name}\` - \`${song.formattedDuration}\` to queue by: ${song.user}`
+              `<a:music:1274067677983408199> | Added \`${song.name}\` - \`${song.formattedDuration}\` to queue by: ${song.user}`
             ),
         ],
       })
@@ -38,7 +38,7 @@ module.exports = async (client) => {
           new EmbedBuilder()
             .setColor("#a20000")
             .setDescription(
-              `<a:music:1273597008518840362> | Added from \`${
+              `<a:music:1274067677983408199> | Added from \`${
                 playlist.name
               }\` : \`${playlist.songs.length} \` queue tracks; \n${status(
                 queue
@@ -47,10 +47,6 @@ module.exports = async (client) => {
         ],
       })
     )
-    .on("error", (channel, e) => {
-      if (channel) channel.send(`⛔ | Error: ${e.toString().slice(0, 1974)}`);
-      else console.error(e);
-    })
     .on("empty", (channel) =>
       channel.send({
         embeds: [
